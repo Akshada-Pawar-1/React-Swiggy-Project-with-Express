@@ -1,0 +1,34 @@
+# Node dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Parcel/Vite/React output
+dist/
+.build/
+.cache/
+.parcel-cache/
+
+# OS & editor stuff
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# dotenv files
+.env
+.env.local
+.env.production
+.env.development
+
+# Logs
+logs/
+*.log
+
+# Optional: lock files (if using only yarn or npm)
+package-lock.json
+yarn.lock
+
+# Optional: skip build artifacts
+build/

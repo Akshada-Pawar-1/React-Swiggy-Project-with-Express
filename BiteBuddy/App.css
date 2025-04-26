@@ -1,0 +1,321 @@
+/* Buttons */
+
+.common-btn{
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px ;
+    cursor: pointer;
+    }
+
+.count-btn{
+    background-color: rgb(37, 34, 34);
+    border: 1px solid rgb(37, 34, 34);
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 3px;
+}
+
+.input-box{
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px ;
+    cursor: pointer;
+}
+
+/* Other CSS */
+
+.header{
+    display: flex;
+    color: blueviolet;
+    justify-content: space-between;
+    background-color:azure;
+    }
+    
+.logo-container{
+    align-items: center;
+    justify-content: center;
+    }
+    
+    .logo{
+    height: 80px;
+    width: 80px;
+    margin: 0px 40px;
+    border-radius: 5px;
+    }
+    
+    .nav-items > ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    }
+    
+    .nav-items > ul > li{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;
+    margin: 0px 10px;
+    }
+    
+    .body{
+    justify-content: center;
+    align-items: center;
+    }
+    
+    .search{
+    font-size: 20px;
+    }
+    
+    .res-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+    
+    .res-card{
+    /* width: 275px; */
+    width: 310px;
+    height: auto;
+    background-color: rgb(236, 229, 229);
+    border-radius: 10px;
+    margin: 10px;
+    padding: 0px 0px 5px 0px;
+    cursor: pointer;
+    }
+    
+    .res-card:hover{
+    border: 1px solid black;
+    }
+    
+    .res-card > h3, .res-card > h4{
+    margin: 10px;
+    }
+    
+    .res-content{
+    display: flex;
+    }
+    
+    .res-content > h4{  
+     margin: 5px 70px 5px 10px
+    }
+    
+    .res-img{
+    /* width: 275px;
+    height: 220px; */
+    width: 310px;
+    height: 255px;
+    border-radius: 10px 10px 0px 0px;
+    }
+    
+    .shimmerContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+    
+    .shimmerCard{
+    width: 310px;
+    height: 355px;
+    background-color: rgb(236, 229, 229);
+    border-radius: 10px;
+    margin: 10px;
+    cursor: pointer;
+    }
+    
+    .filter{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 21px;
+    }
+    
+    .no-underline{
+    text-decoration: none;
+    color: black;
+    }
+    
+    .user-card{
+    padding: 10px;
+    border: 1px solid black;
+    }
+
+    .user-card > h3, .user-card> h4{
+        margin: 5px 0px;
+    }
+
+    .about-card{
+        padding: 5px;
+    }
+
+    .about-card > h2, .about-card > h4{
+        margin: 8px 0px;
+    }
+
+    .contact-card{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .form-card{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 500px;
+        height: 150px;
+    }
+
+    .with-label{
+        position: absolute;
+        background-color: rgb(37, 34, 34);
+        color: whitesmoke;
+        padding: 2px;
+        margin: 10px;
+    }
+
+    /* .res-menu{
+        padding: 0px 40px ;
+        border: 2px solid red;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    } */
+
+    .res-header{
+        /* width: 800px; */
+        margin: 10px;
+        padding: 10px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    .res-title{
+        text-align: center;
+        font-style: italic;
+        color: rgb(199, 54, 54);
+        margin: 20px 10px 10px 5px;
+    }
+
+    .res-details{
+        text-align: center;
+        font-size: 1.2rem;
+        font-weight: bold;
+        font-style: italic;
+        margin: 10px;
+        color: rgb(107, 37, 37);
+    }
+
+    .accordion-menu{
+        display: block;
+        width: 800px;
+        padding: 10px 10px 0px 10px;
+        margin: auto;
+    }
+
+    .accordion-title{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        cursor: pointer;
+        padding: 0px 10px ;
+        margin: 5px;
+        background-color: rgb(231, 227, 227);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    .accordion-title > h3{
+        margin: 8px 0px;
+        padding:  5px 0px;
+    }
+
+    .accordion-body{
+        display: block;
+        margin: 10px;   
+    }
+
+    .menu-container{
+        display: flex;
+        padding: 5px 10px;
+        justify-content: space-between;
+        margin: 5px 0px;
+        border-bottom: 1px solid gray;
+        /* background-color: rgb(255, 249, 249); */
+        /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
+    }
+
+    .menu-info{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width:650px;
+
+        /* margin: 0px 15px 0px 0px; */
+    }
+
+    .menu-title{
+        font-size: large;
+        font-weight: bold;
+    }
+
+    .menu-price{
+        font-weight: bold;
+    }
+
+    .menu-description{
+        /* font-size: smaller; */
+        margin: 3px 0px;
+    }
+
+    .img-container{
+        margin: 0px 5px 15px 5px;
+    }
+
+    .menu-img{
+        /* position: absolute; */
+        width: 156px;
+        height: 144px;
+        border-radius: 12px;
+    }
+
+.img-btn-container{
+    display: flex;
+    width: 190px;
+    /* align-items: end; */
+    justify-content: center;
+}
+
+.btn-container{
+    display: flex;
+    position:absolute;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgb(37, 34, 34);
+}
+
+.btn-container> p{
+    margin: 4px 8px;
+    color: white;
+}
+
+.cart-header{
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.msg-display{
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart-button-positions{
+   display: flex;
+   width: 780px;
+   justify-content:end;
+   margin: auto;
+}
